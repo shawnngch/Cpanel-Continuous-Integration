@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/user/dev0/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R build $DEPLOYPATH
